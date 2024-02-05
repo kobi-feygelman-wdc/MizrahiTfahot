@@ -1,0 +1,33 @@
+{
+	"id": "127fb980-a675-409a-827e-437db9aca7d3",
+	"values": [
+		{
+			"key": "auth_token",
+			"value": "none",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "base_url1",
+			"value": "http://localhost:50352/ANATAFR/CalcAPI/1.0",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "anna",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "123456",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-02-05T21:46:35.228Z",
+	"_postman_exported_using": "Postman/10.22.10"
+}

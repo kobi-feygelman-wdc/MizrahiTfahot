@@ -1,0 +1,37 @@
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: Calculation API
+  description: Calculation API
+paths:
+  /calculate:
+    post:
+      summary: Perform arithmetic operation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                operand1:
+                  type: number
+                operand2:
+                  type: number
+                operation:
+                  type: string
+                  enum: [add, subtract, multiply, divide]
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: number
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/ANATAFR/CalcAPI/1.0
