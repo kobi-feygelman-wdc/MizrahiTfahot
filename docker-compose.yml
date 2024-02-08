@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  io.swagger:
-    image: ${DOCKER_REGISTRY-}ioswagger
-    build:
-      context: .
-      dockerfile: .\Dockerfile
