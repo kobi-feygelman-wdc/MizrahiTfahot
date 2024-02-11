@@ -20,12 +20,15 @@ to pull the appropriate dotnet docker image run:
 	
 Run the following commands
 --------------------------
+Install Docker-Desktop
+Run Docker-Desktop
+
 Just execute 'docker' configuration from VS
 
-or run the following commands
+or run the following command
 
-docker build -t CalculationAPI .
-docker run -p 5000:5000 CalculationAPI
+cd <your root folder>\src\CalculationAPI
+docker-compose up
 
 ## Postman collection
 
